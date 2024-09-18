@@ -1,0 +1,45 @@
+.select2-container--default .select2-results__option {
+    padding-left: 24px;
+    position: relative;
+}
+
+.select2-container--default .select2-results__option input {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.select2-container--default .select2-results__option--highlighted input {
+    background-color: #eaeaea;
+}
+
+.wrap {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}

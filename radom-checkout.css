@@ -1,0 +1,5 @@
+img[src*="checkouticon.svg"] {
+    width: 144px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align icon with text */
+}
